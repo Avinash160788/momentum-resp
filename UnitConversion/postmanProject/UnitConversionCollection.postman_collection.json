@@ -1,0 +1,149 @@
+{
+	"info": {
+		"_postman_id": "abbf1143-f55d-41d9-abde-8d044fe201dc",
+		"name": "UnitConversionCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "TemperatureUnitConversion",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"fromUnit\":\"CELSIUS\",\r\n    \"toUnit\":\"KELVIN\",\r\n    \"inputValue\":5\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/temperatureUnitConversion",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"temperatureUnitConversion"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LengthUnitConversion",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"fromUnit\":\"MILES\",\r\n    \"toUnit\":\"KILOMETERS\",\r\n    \"inputValue\":10\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/lengthUnitConversion",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"lengthUnitConversion"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AreaUnitConversion",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"fromUnit\":\"ACRES\",\r\n    \"toUnit\":\"HECTARES\",\r\n    \"inputValue\":4\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/areaUnitConversion",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"areaUnitConversion"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "VolumnUnitConversion",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"fromUnit\":\"LITRES\",\r\n    \"toUnit\":\"GALLONS\",\r\n    \"inputValue\":7\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/volumnUnitConversion",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"volumnUnitConversion"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "WeightUnitConversion",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"fromUnit\":\"KILOGRAMS\",\r\n    \"toUnit\":\"POUNDS\",\r\n    \"inputValue\":10\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/weightUnitConversion",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"weightUnitConversion"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
